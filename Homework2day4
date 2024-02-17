@@ -1,0 +1,6 @@
+name = "ilia"
+my_name_is = "ilia"
+famile = "gvenetadze"
+age = "15"
+high = "180"
+print("my_name_is" +  name + famile + age + high)
