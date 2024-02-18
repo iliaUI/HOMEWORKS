@@ -1,0 +1,10 @@
+my_age = 15
+my_brother_age = 13
+my_sister_age = 8
+my_mom_age = 40
+my_dad_age = 40
+print(my_age + 5)
+print(my_brother_age + 5)
+print(my_sister_age + 5)
+print(my_mom_age + 5)
+print(my_dad_age + 5)
