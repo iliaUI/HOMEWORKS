@@ -1,0 +1,6 @@
+giorgi = input("enter your age:")
+saba = input("enter your age:")
+lika = input("enter your age:")
+dato = input("enter your age:")
+nika = input("enter your age:")
+print(int(giorgi) * int(saba) // int(lika) + int(dato) + int(nika))
