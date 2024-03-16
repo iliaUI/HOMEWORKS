@@ -1,5 +1,5 @@
-#for loop-ის საშუალებით ტერმინალში გამოიტანეთ 2-დან 50-ის ჩათვლით ნომრები ოღონდ ნაბიჯი იყოს 4
-
-for i in range(2, 51, 4):
-    print(i)
-    
+word = 'Family'
+reversed_word = ''
+for i in word:
+    reversed_word = i + reversed_word
+    print(reversed_word)
