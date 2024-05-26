@@ -1,0 +1,36 @@
+body {
+    background-color: green;
+}
+
+#tr1 {
+    background-color: aqua;
+}
+
+#td1 {
+    background-color: greenyellow;
+    color: white;
+}
+
+#td2 {
+    background-color: olivedrab;
+    color: white;
+}
+
+#td3 {
+    background-color: olive;
+    color: white;
+}
+
+#td4 {
+    background-color: brown;
+    color: white;
+}
+
+#td5 {
+    background-color: red;
+    color: white;
+}
+
+h1 {
+    color: white;
+}
