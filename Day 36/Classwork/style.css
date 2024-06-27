@@ -1,0 +1,23 @@
+div {
+    width: 750px;
+    height: 750px;
+    background-color: greenyellow;
+    font-size: medium;
+    border-radius: 50%;
+    border: 15px solid red;
+    margin: 50px;
+}
+
+p {
+    color: whitesmoke;
+}
+
+.second_div {
+    width: 500px;
+    height: 500px;
+    background-color: purple;
+    font-size: medium;
+    border-radius: 50%;
+    border: 15px solid orangered;
+    margin: 50px;
+}

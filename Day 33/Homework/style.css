@@ -1,0 +1,27 @@
+body {
+    background-color: aqua;
+}
+
+tr.cl1 {
+    background-color: red;
+}
+
+tr.cl2 {
+    background-color: orange;
+}
+
+tr.cl3 {
+    background-color: yellow;
+}
+
+tr.cl4 {
+    background-color: green;
+}
+
+tr.cl5 {
+    background-color: blue;
+}
+
+tr.cl6 {
+    background-color: indigo;
+}

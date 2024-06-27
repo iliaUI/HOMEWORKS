@@ -1,0 +1,7 @@
+ol {
+    list-style-type: georgian;
+}
+
+li {
+    list-style-image: url("../../media/examples/rocket.svg");
+}
