@@ -1,0 +1,110 @@
+.d1 {
+    position: relative;
+    border-radius: 5px;
+    border: 1px solid black; 
+    width: 850px;
+    height: 1500px;
+    margin-left: 275px;
+    top: 150px;
+}
+
+.img1 {
+    position: relative;
+    border-radius: 5px;
+    width: 850px;
+    height: 150px;
+}
+
+.p1 {
+    width: 450px;
+    color: grey;
+}
+
+.b1 {
+    border-radius: 50px;
+    height: 30px;
+    width: 150px;
+    background-color: #22BAA4;
+    color: white;
+    border: 0px;
+}
+
+.b2 {
+    border-radius: 50px;
+    height: 30px;
+    width: 150px;
+    background-color: #6374FD;
+    color: white;
+    border: 0px;
+}
+
+.p2 {
+    width: 375px;
+    color: grey;
+}
+
+.img2 {
+    width: 400px;
+    height: 300px;
+}
+
+.h3 {
+    position: relative;
+    font-size: 20px;
+    margin-left: 400px;
+    top: -300px;
+}
+
+.p3 {
+    position: relative;
+    margin-left: 400px;
+    top: -300px;
+    color: grey;
+}
+
+.h4{
+    position: relative;
+    font-size: 20px;
+    margin-left: 400px;
+    top: -300px;
+}
+
+.p4 {
+    position: relative;
+    margin-left: 400px;
+    top: -300px;
+    color: grey;
+}
+
+.h5 {
+    position: relative;
+    font-size: 20px;
+    margin-left: 400px;
+    top: -300px;
+}
+
+.p5 {
+    position: relative;
+    margin-left: 400px;
+    top: -300px;
+    color: grey;
+}
+
+.h6 {
+    position: relative;
+    top: -250px;
+}
+
+.p6 {
+    position: relative;
+    top: -250px;
+    color: grey;
+}
+
+.img3 {
+    position: relative;
+    width: 450px;
+    height: 300px;
+    top: -200px;
+}
+
