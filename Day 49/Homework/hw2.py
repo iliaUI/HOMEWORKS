@@ -1,4 +1,4 @@
-balance = 100
+balance = input("whats your balance")
 
 user_input = input("Write here when you want to eat: ")
 

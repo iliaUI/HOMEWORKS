@@ -6,7 +6,7 @@ def get_bid():
         return float(bid_input)
     except ValueError:
         print("Invalid input. Please enter a numeric value or 'done'.")
-        return get_bid()  # Retry if the input is invalid
+        return get_bid()  
 
 def auction():
     max_bid = 1600
