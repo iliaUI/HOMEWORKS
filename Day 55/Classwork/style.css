@@ -1,0 +1,46 @@
+body {
+    background-color: orange;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+.up{
+    position: relative;
+    animation: up 3s 1;
+    top: -100px;
+    width: 500px;
+}
+
+@keyframes up {
+    from {}
+    to {color: darkred; top: 250px;}
+}
+
+.left {
+    position: relative;
+    animation: left 3s 1;
+    margin-left: -2500px;
+    top: 250px;
+    width: 550px;
+}
+
+@keyframes left {
+    from {}
+    to {color: green; margin-left: 20px;}
+}
+
+.right {
+    position: relative;
+    animation: right 3s 1;
+    margin-right: -2250px;
+    top: 250px;
+    width:600px;
+}
+
+@keyframes right {
+    from {}
+    to {color: blue; margin-left: -2250px;}
+}
