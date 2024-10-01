@@ -1,0 +1,77 @@
+.h1,
+.h2,
+.h3 {
+    position: relative;
+    color: rgb(81, 31, 80);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 150px;
+    top: 150px;
+    font-size: 40px;
+}
+
+.h2 {
+    position: relative;
+    top: 110px;
+}
+
+.h3 {
+    position: relative;
+    top: 70px;
+}
+
+.p1,
+.p2,
+.p3 {
+    position: relative;
+    color: grey;
+    margin-left: 150px;
+    top: 80px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.p2 {
+    position: relative;
+    top: 65px;
+}
+
+.p3 {
+    position: relative;
+    top: 50px;
+}
+
+.img1 {
+    position: relative;
+    margin-left: 800px;
+    top: -175px;
+    height: 35px;
+    width: 325px;
+    border-radius: 5px;
+}
+
+.img2 {
+    position: relative;
+    top: -90px;
+    margin-left: 900px;
+    height: 35px;
+    width: 325px;
+    border-radius: 5px;
+}
+
+.img3 {
+    position: relative;
+    top: -185px;
+    margin-left: 850px;
+    height: 35px;
+    width: 325px;
+    border-radius: 5px;
+}
+
+.img4 {
+    position: relative;
+    margin-left: 200px;
+    top: -50px;
+}
+
+
+
+
