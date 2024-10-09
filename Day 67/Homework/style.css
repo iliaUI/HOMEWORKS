@@ -1,0 +1,18 @@
+body {
+    background-color: whitesmoke;
+}
+
+div {
+    background-color: black;
+    width: 1250px;
+    height: 850px;
+    border-radius: 20px;
+    position: relative;
+    top: 35px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 100vh;
+    grid-template-rows: 100vh;
+}
