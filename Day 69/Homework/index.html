@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="script.js">
+//1.Davaleba
+
+let userName = prompt("Please enter your name:");
+
+if (userName) {
+    alert(`Welcome, ${userName}!`);
+} else {
+    alert("Welcome, Guest!");
+}
+
+//2.Davaleba
+
+function createCountryCard() {
+            const country = document.getElementById('countryInput').value;
+            const capital = document.getElementById('capitalInput').value;
+            const result = `Country: ${country}, Capital: ${capital}`;
+            document.getElementById('output').textContent = result;
+        }
+
+//3.Davaleba
+
+
+    </script>
+</body>
+</html>
