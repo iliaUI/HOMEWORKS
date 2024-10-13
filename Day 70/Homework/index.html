@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="script.js">
+        function checkAgeGroup() {
+    let age = parseInt(prompt("Please enter your age:"));
+
+    if (isNaN(age) || age < 0) {
+        alert("Please enter a valid age.");
+        return;
+    }
+
+    let ageGroup;
+    if (age >= 0 && age <= 12) {
+        ageGroup = "Child";
+    } else if (age >= 13 && age <= 19) {
+        ageGroup = "Teenager";
+    } else if (age >= 20 && age <= 64) {
+        ageGroup = "Adult";
+    } else {
+        ageGroup = "Senior";
+    }
+
+    alert("You are classified as: " + ageGroup);
+}
+
+checkAgeGroup();
+    </script>
+</body>
+</html>
