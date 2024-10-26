@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="script.js">
+        //1.Create a simple login system that prompts the user for their username and password. Use conditional statements to check if the credentials match predefined values. If they match, print "Login successful!" Otherwise, print "Login failed. Please try again."
+const readline = require('readline');
+
+
+const correctUsername = "user123";
+const correctPassword = "pass123";
+
+
+const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+});
+
+function login() {
+    rl.question('Enter your username: ', (username) => {
+        rl.question('Enter your password: ', (password) => {
+            if (username === correctUsername && password === correctPassword) {
+                console.log("Login successful!");
+            } else {
+                console.log("Login failed. Please try again.");
+            }
+            rl.close();
+        });
+    });
+}
+
+login();
+
+    //2.Davaleba
+function checkTrafficLight() {
+            const lightColor = document.getElementById('lightColor').value.trim().toLowerCase();
+            let resultText = '';
+
+            if (lightColor === "red") {
+                resultText = "Stop!";
+            } else if (lightColor === "yellow") {
+                resultText = "Prepare to stop.";
+            } else if (lightColor === "green") {
+                resultText = "Go!";
+            } else {
+                resultText = "Invalid color. Please enter red, yellow, or green.";
+            }
+
+            document.getElementById('result').innerText = resultText;
+        }
+
+    //3.Davaleba
+    function checkVotingEligibility() {
+            const age = parseInt(document.getElementById('ageInput').value);
+            let resultText = '';
+
+            if (age >= 18) {
+                resultText = "You can vote!";
+            } else {
+                resultText = "You cannot vote yet.";
+            }
+
+            document.getElementById('result').innerText = resultText;
+        }
+
+    //4.Davaleba
+    function displayGreeting() {
+            const month = document.getElementById('monthInput').value.trim().toLowerCase();
+            let greetingText = '';
+
+            switch (month) {
+                case 'january':
+                    greetingText = "Happy New Year!";
+                    break;
+                case 'february':
+                    greetingText = "Happy Valentine's Day!";
+                    break;
+                case 'march':
+                    greetingText = "Welcome to Spring!";
+                    break;
+                case 'april':
+                    greetingText = "April showers bring May flowers!";
+                    break;
+                case 'may':
+                    greetingText = "Happy May Day!";
+                    break;
+                case 'june':
+                    greetingText = "Summer is here!";
+                    break;
+                case 'july':
+                    greetingText = "Happy Independence Day!";
+                    break;
+                case 'august':
+                    greetingText = "Enjoy the summer!";
+                    break;
+                case 'september':
+                    greetingText = "Back to school!";
+                    break;
+                case 'october':
+                    greetingText = "Happy Halloween!";
+                    break;
+                case 'november':
+                    greetingText = "Happy Thanksgiving!";
+                    break;
+                case 'december':
+                    greetingText = "Merry Christmas and Happy Holidays!";
+                    break;
+                default:
+                    greetingText = "Invalid month. Please enter a valid month name.";
+            }
+
+            document.getElementById('result').innerText = greetingText;
+        }
+    </script>
+</body>
+</html>

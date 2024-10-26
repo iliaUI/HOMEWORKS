@@ -7,6 +7,9 @@
 </head>
 <body>
     <script src="script.js">
+
+//1.Davaleba
+
         function checkAgeGroup() {
     let age = parseInt(prompt("Please enter your age:"));
 
@@ -30,6 +33,35 @@
 }
 
 checkAgeGroup();
+
+//2.Davaleba
+
+function temperatureAdvice(currentTemperature) {
+    if (currentTemperature < 0) {
+        console.log("It's freezing outside!");
+    } else if (currentTemperature >= 0 && currentTemperature <= 20) {
+        console.log("It's chilly. Wear a jacket.");
+    } else if (currentTemperature >= 21 && currentTemperature <= 30) {
+        console.log("It's warm. Light clothing is fine.");
+    } else {
+        console.log("It's hot. Stay hydrated!");
+    }
+}
+
+//3.Davaleba
+
+function divisibilityChecker(number) {
+    if (number % 3 === 0 && number % 5 === 0) {
+        console.log("FizzBuzz");
+    } else if (number % 3 === 0) {
+        console.log("Fizz");
+    } else if (number % 5 === 0) {
+        console.log("Buzz");
+    } else {
+        console.log(number);
+    }
+}
+
     </script>
 </body>
 </html>
