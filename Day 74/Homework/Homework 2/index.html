@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="script.js">
+        // სქესის კითხვითი შეკითხვა
+const gender = prompt("შეიყვანეთ თქვენი სქესი (M/F):").trim().toUpperCase();
+
+// შეტყობინების შექმნა Ternary Operator-ის გამოყენებით
+const message = (gender === "M") 
+    ? "თქვენი სქესი: მამრობითი" 
+    : (gender === "F") 
+        ? "თქვენი სქესი: მდედრობითი" 
+        : "არასწორი სქესი";
+
+// შედეგის გამოსახვა
+alert(message);
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="script.js">
+        // მომხმარებლისგან დღის რიცხვის მიღება
+const day = parseInt(prompt("შეიყვანეთ დღის რიცხვი (0-დან 6-მდე):"));
+
+// დღის შეფასება
+const message = (day === 0 || day === 6) 
+    ? "დღეს დასვენებაა" 
+    : "დღეს სამუშაო დღეა";
+
+// შედეგის გამოსახვა
+alert(message);
+
+    </script>
+</body>
+</html>

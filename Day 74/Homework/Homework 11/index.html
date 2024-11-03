@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="script.js">
+        // მომხმარებლისგან ნივთების რაოდენობის მიღება
+const quantity = parseInt(prompt("შეიყვანეთ შეძენილი ნივთების რაოდენობა:"));
+
+// ფასდაკლების პროცენტის დადგენა
+let discount;
+
+if (quantity >= 10) {
+    discount = 20; // 20% ფასდაკლება
+} else if (quantity >= 5) {
+    discount = 10; // 10% ფასდაკლება
+} else {
+    discount = 5;  // 5% ფასდაკლება
+}
+
+// საბოლოო ფასდაკლების პროცენტის დაბეჭდვა
+alert("ფასდაკლების პროცენტი: " + discount + "%");
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="script.js">
+        // მომხმარებლის ასაკისა და სტატუსის მიღება
+const age = parseInt(prompt("შეიყვანეთ თქვენი ასაკი:"));
+const status = prompt("შეიყვანეთ თქვენი სტატუსი (სტუდენტი/დასაქმებული):").toLowerCase();
+
+// სტატუსის შეფასება
+const message = (age >= 18 && age <= 65 && (status === "სტუდენტი" || status === "დასაქმებული")) 
+    ? "აქტიური მომხმარებელი" 
+    : "არააქტიური მომხმარებელი";
+
+// შედეგის გამოსახვა
+alert(message);
+
+    </script>
+</body>
+</html>

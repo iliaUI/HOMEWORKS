@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="script.js">
+        // მომხმარებლისგან შემოსავლის მიღება
+const income = parseFloat(prompt("შეიყვანეთ თქვენი შემოსავალი:"));
+
+// შემოსავლის შეფასება
+const message = (income >= 1000) 
+    ? "მაღალი შემოსავალია" 
+    : "დაბალი შემოსავალია";
+
+// შედეგის გამოსახვა
+alert(message);
+
+    </script>
+</body>
+</html>
